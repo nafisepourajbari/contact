@@ -1,0 +1,99 @@
+.user{
+    display: flex;
+   
+}
+/* .inputright{
+position: relative;
+bottom: 50px;
+} */
+.input{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 70%;
+    margin: auto;
+    
+}
+
+.area{
+    display: block;
+    border-top-style:none ;
+    border-left-style:none ;
+    border-right-style: none;
+    outline: 0;
+    font-size: x-large;
+    width: 618px;
+
+}
+.text,.email{
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    border-top-style:none ;
+    border-left-style:none ;
+    border-right-style: none;
+    border-bottom: 2px solid lightgray;
+    outline: 0;
+    font-size: larger;
+}
+.phone{
+    width: 613px;
+    height: 30px;
+    padding: 5px;
+    border-top-style:none ;
+    border-left-style:none ;
+    border-right-style: none;
+    border-bottom: 2px solid lightgray;
+    outline: 0;
+    font-size: larger;
+   
+}
+
+.phone:focus{
+    border-bottom:2px solid orange;
+    transition:all .5s ease ;
+}
+.text:focus{
+    border-bottom:2px solid orange;
+    transition:all .5s ease ;
+}
+.email:focus{
+     border-bottom:2px solid orange;
+     transition:all .5s ease ;
+}
+.area:focus{
+    border-bottom:2px solid orange;
+    transition:all .5s ease ;
+}
+.submit{
+    width: 150px;
+    height: 50px;
+    border: 0;
+    margin: 10px;
+    background-color: orange;
+}
+.submit:hover{
+    background-color: rgb(5, 5, 28);
+    color: white;
+}
+.email{
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    font-size: larger;
+}
+.email:hover{
+    color: orange;
+}
+.phone1{
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    font-size: larger;
+    
+}
+.phone1:hover{
+    color: orange;
+    transition:all .8s ease ;
+}
+.inputright{
+    padding: 20px 10px;
+    margin: 10px 80px;
+}
