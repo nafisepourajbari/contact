@@ -74,6 +74,7 @@ bottom: 50px;
 .submit:hover{
     background-color: rgb(5, 5, 28);
     color: white;
+    transition:all .5s ease ;
 }
 .email{
     text-decoration: none;
